@@ -1,0 +1,53 @@
+#social {
+  margin: 50px 0 50px;
+  background-color: black;
+}
+
+#social .container .media-title {
+  margin: 50px 0 50px;
+}
+
+#social .container .media-title h2 {
+  font-size: 36px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding: 50px 0 10px;
+  color: white;
+  text-align: center;
+}
+
+#social .container .media-title p {
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  padding: 0 0 10px;
+  color: #00375b;
+  text-align: center;
+}
+
+#social .container .media-icons .social-icons img {
+  display: inline-block;
+  position: relative;
+  max-width: 90px;
+  max-height: 90px;
+}
+
+#social .container .media-icons .social-icons .facebook {
+  margin-right: 100px;
+  margin-left: 22%;
+  margin-bottom: 50px;
+}
+
+#social .container .media-icons .social-icons .instagram {
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+#social .container .media-icons .social-icons .youtube {
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+#social .container .media-icons .social-icons .twitter {
+  margin-bottom: 50px;
+}

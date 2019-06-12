@@ -1,0 +1,51 @@
+#latest-vids {
+  padding: 56px 0 50px 0;
+}
+
+#latest-vids .latest-title h2 {
+  color: #2643A4;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 4px;
+  padding-bottom: 10px;
+}
+
+#latest-vids .latest-title p {
+  color: #656565;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+
+#latest-vids .latest-video {
+  margin: 20px 30px;
+  text-align: center;
+}
+
+#latest-vids .latest-video a img {
+  width: 100%;
+}
+
+#latest-vids .latest-btn {
+  text-align: center;
+}
+
+#latest-vids .latest-btn button {
+  background-color: #ff720a;
+  color: white;
+  padding: 16px 50px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  margin-top: 35px;
+}

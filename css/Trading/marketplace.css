@@ -1,0 +1,153 @@
+.cnbc img {
+  position: relative;
+  padding: 20px 0;
+  max-width: 100%;
+  height: auto;
+  left: 17%;
+}
+
+.sponsors {
+  max-width: 100%;
+  border-top: 1px solid #E2E2E2;
+  border-bottom: 1px solid #E2E2E2;
+}
+
+.sponsors table tr td img {
+  position: relative;
+  padding: 0 69px;
+  max-width: 100%;
+  height: 90px;
+}
+
+/* Marketplace */
+
+.Marketplace h2 {
+  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1c44aa !important;
+  letter-spacing: 4px;
+  padding: 30px 20px 20px;
+}
+
+.row {
+  padding: 32px 0;
+  text-align: center;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row .column {
+  position: relative;
+  float: left;
+  width: 29.5%;
+  padding: 32px 0;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.25);
+
+}
+
+.row .column::before {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.row .column:hover::before {
+  opacity: 1;
+}
+
+.row .column-left {
+  margin-right: 70px;
+}
+
+.row .column-middle {
+  margin-right: 70px;
+}
+
+
+.img {
+  position: relative;
+}
+
+.img .img-wrap {
+  display: block;
+}
+
+.img .img-wrap img {
+  max-width: 65%;
+  height: auto;
+}
+
+.description-market .layout-desc {
+  padding: 10px 30px 20px;
+}
+
+.description-market .layout-desc h2 {
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #333333 !important;
+}
+
+.description-market .layout-desc p {
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  color: #666666 !important;
+  padding-bottom: 35px;
+  text-align: left;
+}
+
+#icons .Marketplace .btn-market a {
+  position: relative;
+  color: #ffffff !important;
+  border-radius: 0px;
+  letter-spacing: 4px;
+  font-size: 18px;
+  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif !important;
+  font-weight: 600 !important;
+  background-color: #0d7ae8;
+  width: 50px;
+  height: 50px;
+  padding: 11px 22px;
+  text-transform: uppercase;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+#icons .Marketplace .btn-market a::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.3s ease-in-out;
+}
+
+#icons .Marketplace .btn-market a:hover {
+  transform: scale(1.5, 1.5);
+}
+
+#icons .Marketplace .btn-market a:hover::after {
+  opacity: 1;
+}

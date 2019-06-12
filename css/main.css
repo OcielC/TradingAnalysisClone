@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap');
+@import "Trading/reset.css";
+@import "Trading/landing-section.css";
+@import "Trading/marketplace.css";
+@import "Trading/opportunity.css";
+@import "Trading/latest-vids.css";
+@import "Trading/trading-method.css";
+@import "Trading/meet.css";
+@import "Trading/email-list.css";
+@import "Trading/testimonials.css";
+@import "Trading/updates.css";
+@import "Trading/social.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
+}
+
+.container-fluid {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
+}
+
+.page_container {
+  max-width: 1680px;
+}
